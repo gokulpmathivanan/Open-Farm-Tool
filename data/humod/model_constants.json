@@ -1,0 +1,47 @@
+{
+    "source": "Brock et al. (2012) The humus balance model (HU-MOD): a simple tool for the assessment of management change impact on soil organic matter levels in arable soils DOI: 10.1007/s10705-012-9487-z",
+
+    "humification_coefficients": {
+        "roots_at_harvest": 0.25,
+        "root_turnover": 0.14,
+        "root_exudates": 0.05,
+        "green_manure": 0.126,
+        "straw_method": "calculated as site cn ratio (straw_C/straw_N)"
+    },
+
+    "root_biomass_factors": {
+        "root_turnover_factor": 2.0,
+        "root_exudate_factor": 0.65
+    },
+
+    "nitrogen_utilisation_rates": {
+        "low_yield": {
+            "poor_site": 0.40,
+            "fair_site": 0.50,
+            "good_site": 0.60,
+            "very_good_site": 0.70
+        },
+        "medium_yield": {
+            "poor_site": 0.45,
+            "fair_site": 0.55,
+            "good_site": 0.65,
+            "very_good_site": 0.75
+        },
+        "high_yield": {
+            "poor_site": 0.50,
+            "fair_site": 0.60,
+            "good_site": 0.70,
+            "very_good_site": 0.85
+        },
+        "NUR_SOM_derived_n": 0.9,
+        "NUR_n_from_slow_continuous_fert_source": 0.9
+    },
+
+    "default_site_parameters": {
+        "deafult_soil_cn_ratio": 10.5,
+        "default_n_deposotion": 20,
+        "default_pore_volume": 0.4,
+        "fert_n_application_loss": 0.15,
+        "max_fert_n_share": 0.6
+    }
+}

@@ -1,0 +1,2991 @@
+{
+  "1001": {
+    "crop_id": 1001,
+    "name": "Winter wheat",
+    "name_de": "Winterweizen",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.445,
+      "n_content_mp": 0.0198
+    },
+    "side_product": {
+      "ratio_sp_mp": 1,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.00495
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.2,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.46,
+      "n_content_st": 0.00495
+    },
+    "root": {
+      "ratio_root_shoot": 0.5,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.0088
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 4.5
+  },
+  "1002": {
+    "crop_id": 1002,
+    "name": "Summer wheat",
+    "name_de": "Sommerweizen",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.445,
+      "n_content_mp": 0.018
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.2,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.0045
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.32,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.46,
+      "n_content_st": 0.0045
+    },
+    "root": {
+      "ratio_root_shoot": 0.8,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 3.5
+  },
+  "1003": {
+    "crop_id": 1003,
+    "name": "Winter Spelt",
+    "name_de": "Winterkorn (Spelz, Dinkel)",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.445,
+      "n_content_mp": 0.0176
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.2,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.0043
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.32,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.46,
+      "n_content_st": 0.0043
+    },
+    "root": {
+      "ratio_root_shoot": 0.8,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 4.0
+  },
+  "1004": {
+    "crop_id": 1004,
+    "name": "Winter rye",
+    "name_de": "Winterroggen",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.445,
+      "n_content_mp": 0.0198
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.3,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.00495
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.261904761904762,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.46,
+      "n_content_st": 0.00495
+    },
+    "root": {
+      "ratio_root_shoot": 0.733333333333334,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.0088
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 4.0
+  },
+  "1005": {
+    "crop_id": 1005,
+    "name": "Summer rye",
+    "name_de": "Sommerroggen",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.445,
+      "n_content_mp": 0.017
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.4,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.0045
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.262605042016807,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.46,
+      "n_content_st": 0.0045
+    },
+    "root": {
+      "ratio_root_shoot": 0.735294117647059,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 3.5
+  },
+  "1006": {
+    "crop_id": 1006,
+    "name": "Winter barley",
+    "name_de": "Wintergerste",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.445,
+      "n_content_mp": 0.018
+    },
+    "side_product": {
+      "ratio_sp_mp": 1,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.0045
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.228571428571429,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.46,
+      "n_content_st": 0.0045
+    },
+    "root": {
+      "ratio_root_shoot": 0.571428571428571,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 4.0
+  },
+  "1007": {
+    "crop_id": 1007,
+    "name": "Summer barley",
+    "name_de": "Sommergerste",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.445,
+      "n_content_mp": 0.018
+    },
+    "side_product": {
+      "ratio_sp_mp": 1,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.0045
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.295454545454545,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.46,
+      "n_content_st": 0.0045
+    },
+    "root": {
+      "ratio_root_shoot": 0.65,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 3.5
+  },
+  "1008": {
+    "crop_id": 1008,
+    "name": "Oats",
+    "name_de": "Sommerhafer",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.458,
+      "n_content_mp": 0.017
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.4,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.465,
+      "n_content_sp": 0.004
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.25,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.465,
+      "n_content_st": 0.004
+    },
+    "root": {
+      "ratio_root_shoot": 0.65,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 3.5
+  },
+  "1009": {
+    "crop_id": 1009,
+    "name": "Winter triticale",
+    "name_de": "Wintertriticale",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.445,
+      "n_content_mp": 0.018
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.2,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.0045
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.260869565217391,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.46,
+      "n_content_st": 0.0045
+    },
+    "root": {
+      "ratio_root_shoot": 0.6,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 4.0
+  },
+  "1010": {
+    "crop_id": 1010,
+    "name": "Summer triticale",
+    "name_de": "Sommertriticale",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.445,
+      "n_content_mp": 0.018
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.3,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.0045
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.260869565217391,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.46,
+      "n_content_st": 0.0045
+    },
+    "root": {
+      "ratio_root_shoot": 0.6,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 3.5
+  },
+  "1011": {
+    "crop_id": 1011,
+    "name": "Winter cereals (not specified)",
+    "name_de": "Div. Winterbrotgetr. (inkl. Korn, Mischungen)",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.445,
+      "n_content_mp": 0.0175
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.2,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.0044
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.232504068821204,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.46,
+      "n_content_st": 0.0044
+    },
+    "root": {
+      "ratio_root_shoot": 0.588235294117647,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 4.0
+  },
+  "1012": {
+    "crop_id": 1012,
+    "name": "Summer cereals (not specified)",
+    "name_de": "Div. Sommerbrotgetr. (inkl. Mischungen)",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.445,
+      "n_content_mp": 0.0175
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.2,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.0044
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.274303269694975,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.46,
+      "n_content_st": 0.0044
+    },
+    "root": {
+      "ratio_root_shoot": 0.680272108843537,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 3.5
+  },
+  "1013": {
+    "crop_id": 1013,
+    "name": "Winter cereals for fodder or energy, harvest before maturity",
+    "name_de": "Div. Winterfuttergetr. (inkl. Mischungen)",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.445,
+      "n_content_mp": 0.017
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.232504068821204,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.46,
+      "n_content_st": 0
+    },
+    "root": {
+      "ratio_root_shoot": 0.588235294117647,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 4.5
+  },
+  "1014": {
+    "crop_id": 1014,
+    "name": "Summer cereals for fodder or energy, harvest before maturity",
+    "name_de": "Div. Sommerfuttergetr. (inkl. Mischungen)",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.445,
+      "n_content_mp": 0.017
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.274303269694975,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.46,
+      "n_content_st": 0
+    },
+    "root": {
+      "ratio_root_shoot": 0.680272108843537,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 4.0
+  },
+  "1020": {
+    "crop_id": 1020,
+    "name": "Mixture of winter cereals and grain legumes, legume share >0.5",
+    "name_de": "Wintergetreide und Körnerleguminosen, Leguminosenanteil 50%",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.4583,
+      "n_content_mp": 0.0326
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.36,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.4657,
+      "n_content_sp": 0.0098
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.235294117647059,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.4657,
+      "n_content_st": 0.0098
+    },
+    "root": {
+      "ratio_root_shoot": 0.588235294117647,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0.5,
+      "NDFA": 0.75
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": null,
+      "humus_supply_high": null,
+      "humus_supply_organic": null,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 3.5
+  },
+  "1025": {
+    "crop_id": 1025,
+    "name": "Mixture of summer cereals and grain legumes, legume share >0.5",
+    "name_de": "Sommergetreide und Körnerleguminosen, Leguminosenanteil 50%",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.4583,
+      "n_content_mp": 0.0326
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.36,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.4657,
+      "n_content_sp": 0.0098
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.235294117647059,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.4657,
+      "n_content_st": 0.0098
+    },
+    "root": {
+      "ratio_root_shoot": 0.588235294117647,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0.5,
+      "NDFA": 0.7
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": -160,
+      "humus_supply_high": -160,
+      "humus_supply_organic": -160,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 3.5
+  },
+  "1030": {
+    "crop_id": 1030,
+    "name": "Grain maize",
+    "name_de": "Mais: Körnermais, CCM, Kolbenschrot",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.0135
+    },
+    "side_product": {
+      "ratio_sp_mp": 0.8,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.01
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.0865384615384615,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.46,
+      "n_content_st": 0.01
+    },
+    "root": {
+      "ratio_root_shoot": 0.1125,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 560,
+      "humus_supply_high": 800,
+      "humus_supply_organic": 1040,
+      "supply_coeff_sp": 0
+    },
+    "default_yield": null
+  },
+  "1031": {
+    "crop_id": 1031,
+    "name": "Silage maize",
+    "name_de": "Mais: Silomais, Trockenwürfel",
+    "main_product": {
+      "dm_content_mp": 0.28,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.0113
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.0865384615384615,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.45,
+      "n_content_st": 0
+    },
+    "root": {
+      "ratio_root_shoot": 0.1125,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 560,
+      "humus_supply_high": 800,
+      "humus_supply_organic": 1040,
+      "supply_coeff_sp": 0
+    },
+    "default_yield": 35.0
+  },
+  "1032": {
+    "crop_id": 1032,
+    "name": "Winter rapeseed",
+    "name_de": "Raps: Winterraps",
+    "main_product": {
+      "dm_content_mp": 0.91,
+      "c_content_mp": 0.565,
+      "n_content_mp": 0.0345
+    },
+    "side_product": {
+      "ratio_sp_mp": 2.3,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.47,
+      "n_content_sp": 0.007
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.10989010989011,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.47,
+      "n_content_st": 0.007
+    },
+    "root": {
+      "ratio_root_shoot": 0.142857142857143,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.02
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 2.5
+  },
+  "1033": {
+    "crop_id": 1033,
+    "name": "Summer rapeseed",
+    "name_de": "Raps: Sommerraps",
+    "main_product": {
+      "dm_content_mp": 0.91,
+      "c_content_mp": 0.55,
+      "n_content_mp": 0.0345
+    },
+    "side_product": {
+      "ratio_sp_mp": 2.3,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.47,
+      "n_content_sp": 0.007
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.10989010989011,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.47,
+      "n_content_st": 0.007
+    },
+    "root": {
+      "ratio_root_shoot": 0.142857142857143,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.02
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 2.5
+  },
+  "1034": {
+    "crop_id": 1034,
+    "name": "Storage Potatoes",
+    "name_de": "Lagerkartoffeln",
+    "main_product": {
+      "dm_content_mp": 0.22,
+      "c_content_mp": 0.42,
+      "n_content_mp": 0.0154
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0.4,
+      "c_content_sp": 0.4,
+      "n_content_sp": 0.0099
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.3,
+      "dm_content_st": 0.4,
+      "c_content_st": 0.4,
+      "n_content_st": 0.0099
+    },
+    "root": {
+      "ratio_root_shoot": 0.101010101010101,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.0253
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 760,
+      "humus_supply_high": 1000,
+      "humus_supply_organic": 1240,
+      "supply_coeff_sp": 0
+    },
+    "default_yield": 25.0
+  },
+  "1035": {
+    "crop_id": 1035,
+    "name": "Sugar beet",
+    "name_de": "Rüben: Zuckerrüben",
+    "main_product": {
+      "dm_content_mp": 0.23,
+      "c_content_mp": 0.41,
+      "n_content_mp": 0.007
+    },
+    "side_product": {
+      "ratio_sp_mp": 0.6,
+      "dm_content_sp": 0.18,
+      "c_content_sp": 0.4,
+      "n_content_sp": 0.018
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0,
+      "dm_content_st": 0.18,
+      "c_content_st": 0.4,
+      "n_content_st": 0.018
+    },
+    "root": {
+      "ratio_root_shoot": 0.101010101010101,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.0263
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 760,
+      "humus_supply_high": 1300,
+      "humus_supply_organic": 1840,
+      "supply_coeff_sp": 16
+    },
+    "default_yield": 40.0
+  },
+  "1036": {
+    "crop_id": 1036,
+    "name": "Fodder beet",
+    "name_de": "Rüben: Futterrüben",
+    "main_product": {
+      "dm_content_mp": 0.12,
+      "c_content_mp": 0.412,
+      "n_content_mp": 0.015
+    },
+    "side_product": {
+      "ratio_sp_mp": 0.35,
+      "dm_content_sp": 0.15,
+      "c_content_sp": 0.4,
+      "n_content_sp": 0.0135
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0,
+      "dm_content_st": 0.15,
+      "c_content_st": 0.4,
+      "n_content_st": 0.0135
+    },
+    "root": {
+      "ratio_root_shoot": 0.101010101010101,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.0263
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 760,
+      "humus_supply_high": 1300,
+      "humus_supply_organic": 1840,
+      "supply_coeff_sp": 16
+    },
+    "default_yield": 40.0
+  },
+  "1037": {
+    "crop_id": 1037,
+    "name": "Sunflowers",
+    "name_de": "Sonnenblumen",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.445,
+      "n_content_mp": 0.018
+    },
+    "side_product": {
+      "ratio_sp_mp": 2,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.0045
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.260869565217391,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.46,
+      "n_content_st": 0.0045
+    },
+    "root": {
+      "ratio_root_shoot": 0.6,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 2.5
+  },
+  "1038": {
+    "crop_id": 1038,
+    "name": "Flax",
+    "name_de": "Lein",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.53,
+      "n_content_mp": 0.0385
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.7,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.0089
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.10989010989011,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.46,
+      "n_content_st": 0.0089
+    },
+    "root": {
+      "ratio_root_shoot": 0.142857142857143,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 1.5
+  },
+  "1040": {
+    "crop_id": 1040,
+    "name": "Winter field beans",
+    "name_de": "Winterackerbohnen",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.47,
+      "n_content_mp": 0.047
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.6,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.475,
+      "n_content_sp": 0.0138
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.109289617486339,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.475,
+      "n_content_st": 0.0138
+    },
+    "root": {
+      "ratio_root_shoot": 0.163934426229508,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.0118
+    },
+    "legume_fixation": {
+      "leg_share": 1,
+      "NDFA": 0.75
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": -160,
+      "humus_supply_high": -160,
+      "humus_supply_organic": -160,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 4.0
+  },
+  "1041": {
+    "crop_id": 1041,
+    "name": "Summer field beans",
+    "name_de": "Sommerackerbohnen",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.47,
+      "n_content_mp": 0.047
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.6,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.475,
+      "n_content_sp": 0.0138
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.109289617486339,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.475,
+      "n_content_st": 0.0138
+    },
+    "root": {
+      "ratio_root_shoot": 0.163934426229508,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.0118
+    },
+    "legume_fixation": {
+      "leg_share": 1,
+      "NDFA": 0.75
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": -160,
+      "humus_supply_high": -160,
+      "humus_supply_organic": -160,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 4.0
+  },
+  "1042": {
+    "crop_id": 1042,
+    "name": "Protein Peas",
+    "name_de": "Eiweisserbsen",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.47,
+      "n_content_mp": 0.0407
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.5,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.475,
+      "n_content_sp": 0.0176
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.0510204081632653,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.475,
+      "n_content_st": 0.0176
+    },
+    "root": {
+      "ratio_root_shoot": 0.102040816326531,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.0279
+    },
+    "legume_fixation": {
+      "leg_share": 1,
+      "NDFA": 0.8
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": -160,
+      "humus_supply_high": -160,
+      "humus_supply_organic": -160,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 3.5
+  },
+  "1043": {
+    "crop_id": 1043,
+    "name": "Soy",
+    "name_de": "Soja",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.47,
+      "n_content_mp": 0.047
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.6,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.475,
+      "n_content_sp": 0.0138
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.109289617486339,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.475,
+      "n_content_st": 0.0138
+    },
+    "root": {
+      "ratio_root_shoot": 0.163934426229508,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.0118
+    },
+    "legume_fixation": {
+      "leg_share": 1,
+      "NDFA": 0.5
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": -160,
+      "humus_supply_high": -160,
+      "humus_supply_organic": -160,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 3.5
+  },
+  "1044": {
+    "crop_id": 1044,
+    "name": "Grain legumes (not specified)",
+    "name_de": "Diverse Körnerleguminosen",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.47,
+      "n_content_mp": 0.047
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.5,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.475,
+      "n_content_sp": 0.017
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.0510204081632653,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.475,
+      "n_content_st": 0.017
+    },
+    "root": {
+      "ratio_root_shoot": 0.102040816326531,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.0118
+    },
+    "legume_fixation": {
+      "leg_share": 1,
+      "NDFA": 0.75
+    },
+    "n_dynamics": {
+      "NYRN": -40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": -160,
+      "humus_supply_high": -160,
+      "humus_supply_organic": -160,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 3.5
+  },
+  "1050": {
+    "crop_id": 1050,
+    "name": "Clover-grass (fodder), legume share >0.9",
+    "name_de": "Kleegras, Luzernegras (Futter)",
+    "main_product": {
+      "dm_content_mp": 0.2,
+      "c_content_mp": 0.46,
+      "n_content_mp": 0.0286
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": null,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.0286
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.2,
+      "dm_content_st": null,
+      "c_content_st": 0.46,
+      "n_content_st": 0.0286
+    },
+    "root": {
+      "ratio_root_shoot": 1,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.0204
+    },
+    "legume_fixation": {
+      "leg_share": 0.75,
+      "NDFA": 0.85
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": -700,
+      "humus_supply_high": -700,
+      "humus_supply_organic": -700,
+      "supply_coeff_sp": 0
+    },
+    "default_yield": 50.0
+  },
+  "1051": {
+    "crop_id": 1051,
+    "name": "Clover-grass (mulch), legume share >0.9",
+    "name_de": "Kleegras, Luzernegras (Mulch)",
+    "main_product": {
+      "dm_content_mp": 0.2,
+      "c_content_mp": 0.46,
+      "n_content_mp": 0.0286
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": null,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.0286
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.2,
+      "dm_content_st": null,
+      "c_content_st": 0.46,
+      "n_content_st": 0.0286
+    },
+    "root": {
+      "ratio_root_shoot": 1,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.0204
+    },
+    "legume_fixation": {
+      "leg_share": 0.75,
+      "NDFA": 0.85
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": -700,
+      "humus_supply_high": -700,
+      "humus_supply_organic": -700,
+      "supply_coeff_sp": 0
+    },
+    "default_yield": 50.0
+  },
+  "1052": {
+    "crop_id": 1052,
+    "name": "Arable fodder (grass) without legumes",
+    "name_de": "Ackerfutter ohne Leguminosen (Gras)",
+    "main_product": {
+      "dm_content_mp": 0.2,
+      "c_content_mp": 0.46,
+      "n_content_mp": 0.0286
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": null,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.0286
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.2,
+      "dm_content_st": null,
+      "c_content_st": 0.46,
+      "n_content_st": 0.0286
+    },
+    "root": {
+      "ratio_root_shoot": 1,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.0204
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0.85
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": -700,
+      "humus_supply_high": -700,
+      "humus_supply_organic": -700,
+      "supply_coeff_sp": 0
+    },
+    "default_yield": 50.0
+  },
+  "1059": {
+    "crop_id": 1059,
+    "name": "Grass",
+    "name_de": "Ackergras",
+    "main_product": {
+      "dm_content_mp": 0.2,
+      "c_content_mp": 0.46,
+      "n_content_mp": 0.0286
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": null,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.0286
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.2,
+      "dm_content_st": null,
+      "c_content_st": 0.46,
+      "n_content_st": 0.0286
+    },
+    "root": {
+      "ratio_root_shoot": 1,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.0204
+    },
+    "legume_fixation": {
+      "leg_share": 0.1,
+      "NDFA": 0.85
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": null,
+      "humus_supply_high": null,
+      "humus_supply_organic": null,
+      "supply_coeff_sp": null
+    },
+    "default_yield": null
+  },
+  "1060": {
+    "crop_id": 1060,
+    "name": "Winter catch crop without legumes",
+    "name_de": "Winterzwischenfrucht ohne Leguminosen bzw. WZF allg. (VDLUFA)",
+    "main_product": {
+      "dm_content_mp": 0.2,
+      "c_content_mp": 0.44,
+      "n_content_mp": 0.028
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": null,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.03
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.17636684303351,
+      "dm_content_st": null,
+      "c_content_st": 0.46,
+      "n_content_st": 0.03
+    },
+    "root": {
+      "ratio_root_shoot": 0.37037037037037,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": -140,
+      "humus_supply_high": -140,
+      "humus_supply_organic": -140,
+      "supply_coeff_sp": 0
+    },
+    "default_yield": 10.0
+  },
+  "1061": {
+    "crop_id": 1061,
+    "name": "Summer catch crop without legumes",
+    "name_de": "Sommerzwischenfrucht ohne Leguminosen bzw. SZF allg. (VDLUFA)",
+    "main_product": {
+      "dm_content_mp": 0.2,
+      "c_content_mp": 0.44,
+      "n_content_mp": 0.028
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": null,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.03
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.17636684303351,
+      "dm_content_st": null,
+      "c_content_st": 0.46,
+      "n_content_st": 0.03
+    },
+    "root": {
+      "ratio_root_shoot": 0.37037037037037,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.008
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 40,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": -100,
+      "humus_supply_high": -100,
+      "humus_supply_organic": -100,
+      "supply_coeff_sp": 0
+    },
+    "default_yield": 10.0
+  },
+  "1070": {
+    "crop_id": 1070,
+    "name": "Catch crop mixture, legume share >0.9",
+    "name_de": "Zwischenfrucht mit 90% Leguminosenanteil",
+    "main_product": {
+      "dm_content_mp": 0.2,
+      "c_content_mp": 0.46,
+      "n_content_mp": 0.03
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": null,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.03
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.235294117647059,
+      "dm_content_st": null,
+      "c_content_st": 0.46,
+      "n_content_st": 0.03
+    },
+    "root": {
+      "ratio_root_shoot": 0.588235294117647,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.0214
+    },
+    "legume_fixation": {
+      "leg_share": 0.75,
+      "NDFA": 0.85
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": -140,
+      "humus_supply_high": -140,
+      "humus_supply_organic": -140,
+      "supply_coeff_sp": 0
+    },
+    "default_yield": 8.0
+  },
+  "1080": {
+    "crop_id": 1080,
+    "name": "Underseed, legume share >0.9",
+    "name_de": "Untersaat mit 90% Leguminosenanteil",
+    "main_product": {
+      "dm_content_mp": 0.2,
+      "c_content_mp": 0.46,
+      "n_content_mp": 0.0286
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": null,
+      "c_content_sp": 0.46,
+      "n_content_sp": 0.0286
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.2,
+      "dm_content_st": null,
+      "c_content_st": 0.46,
+      "n_content_st": 0.0286
+    },
+    "root": {
+      "ratio_root_shoot": 1,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.0204
+    },
+    "legume_fixation": {
+      "leg_share": 0.75,
+      "NDFA": 0.85
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": -250,
+      "humus_supply_high": -250,
+      "humus_supply_organic": -250,
+      "supply_coeff_sp": 0
+    },
+    "default_yield": 10.0
+  },
+  "1090": {
+    "crop_id": 1090,
+    "name": "Cup plant",
+    "name_de": "Durchwachsene Silphie",
+    "main_product": {
+      "dm_content_mp": null,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.0145
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.697374385438823,
+      "dm_content_st": 0,
+      "c_content_st": 0.46,
+      "n_content_st": 0.0145
+    },
+    "root": {
+      "ratio_root_shoot": 0.336134453781513,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": null,
+      "humus_supply_high": null,
+      "humus_supply_organic": null,
+      "supply_coeff_sp": 0
+    },
+    "default_yield": null
+  },
+  "1091": {
+    "crop_id": 1091,
+    "name": "Jerusalem artichoke",
+    "name_de": "Topinambur",
+    "main_product": {
+      "dm_content_mp": null,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.0141
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.0970496894409938,
+      "dm_content_st": 0,
+      "c_content_st": 0.46,
+      "n_content_st": 0.014
+    },
+    "root": {
+      "ratio_root_shoot": 0.178571428571429,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": null,
+      "humus_supply_high": null,
+      "humus_supply_organic": null,
+      "supply_coeff_sp": 0
+    },
+    "default_yield": null
+  },
+  "1092": {
+    "crop_id": 1092,
+    "name": "Sudangrass",
+    "name_de": "Sudangras",
+    "main_product": {
+      "dm_content_mp": null,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.0113
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.899539435808866,
+      "dm_content_st": 0,
+      "c_content_st": 0.46,
+      "n_content_st": 0.013
+    },
+    "root": {
+      "ratio_root_shoot": 0.259067357512953,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": null,
+      "humus_supply_high": null,
+      "humus_supply_organic": null,
+      "supply_coeff_sp": 0
+    },
+    "default_yield": null
+  },
+  "1093": {
+    "crop_id": 1093,
+    "name": "Energy Sorghum",
+    "name_de": "Sorghum-Hirse",
+    "main_product": {
+      "dm_content_mp": null,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.0148
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.901160694975128,
+      "dm_content_st": 0,
+      "c_content_st": 0.46,
+      "n_content_st": 0.015
+    },
+    "root": {
+      "ratio_root_shoot": 0.699300699300699,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": null,
+      "humus_supply_high": null,
+      "humus_supply_organic": null,
+      "supply_coeff_sp": 0
+    },
+    "default_yield": null
+  },
+  "1094": {
+    "crop_id": 1094,
+    "name": "Energy rye",
+    "name_de": "Grünroggen f. Biogas",
+    "main_product": {
+      "dm_content_mp": null,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.0162
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 1.38197899391929,
+      "dm_content_st": 0,
+      "c_content_st": 0.46,
+      "n_content_st": 0.016
+    },
+    "root": {
+      "ratio_root_shoot": 0.373134328358209,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": null,
+      "humus_supply_high": null,
+      "humus_supply_organic": null,
+      "supply_coeff_sp": 0
+    },
+    "default_yield": null
+  },
+  "1095": {
+    "crop_id": 1095,
+    "name": "Oats + Camelina",
+    "name_de": "Hafer+Leindotter",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.46415,
+      "n_content_mp": 0.0407
+    },
+    "side_product": {
+      "ratio_sp_mp": 1.43,
+      "dm_content_sp": 0.86,
+      "c_content_sp": 0.47035,
+      "n_content_sp": 0.0176
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.143157262905162,
+      "dm_content_st": 0.86,
+      "c_content_st": 0.47035,
+      "n_content_st": 0.0137
+    },
+    "root": {
+      "ratio_root_shoot": null,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01895
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": -160,
+      "humus_supply_high": -160,
+      "humus_supply_organic": -160,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 3.5
+  },
+  "1096": {
+    "crop_id": 1096,
+    "name": "Sorghum + Maize",
+    "name_de": "Sorghumhirse+Mais",
+    "main_product": {
+      "dm_content_mp": null,
+      "c_content_mp": null,
+      "n_content_mp": null
+    },
+    "side_product": {
+      "ratio_sp_mp": null,
+      "dm_content_sp": null,
+      "c_content_sp": null,
+      "n_content_sp": null
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0.700161314679554,
+      "c_content_lt": 0.277123848350167,
+      "n_content_lt": 0.00658151635798781
+    },
+    "stubble": {
+      "ratio_st_mp": 0.0192488393789289,
+      "dm_content_st": 0.8665635,
+      "c_content_st": 0.3669029859,
+      "n_content_st": 0.0041595048
+    },
+    "root": {
+      "ratio_root_shoot": null,
+      "dm_content_rt": 0.9752468,
+      "c_content_rt": 0.3587,
+      "n_content_rt": 0.0131
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": null,
+      "humus_supply_high": null,
+      "humus_supply_organic": null,
+      "supply_coeff_sp": 0
+    },
+    "default_yield": null
+  },
+  "1100": {
+    "crop_id": 1100,
+    "name": "Carrots",
+    "name_de": "Möhren",
+    "main_product": {
+      "dm_content_mp": 0.15,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.008
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.5,
+      "dm_content_st": 0,
+      "c_content_st": 0.45,
+      "n_content_st": 0.015
+    },
+    "root": {
+      "ratio_root_shoot": null,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 560,
+      "humus_supply_high": 800,
+      "humus_supply_organic": 1040,
+      "supply_coeff_sp": 16
+    },
+    "default_yield": 35.0
+  },
+  "1101": {
+    "crop_id": 1101,
+    "name": "Onions",
+    "name_de": "Zwiebeln",
+    "main_product": {
+      "dm_content_mp": 0.18,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.01
+    },
+    "side_product": {
+      "ratio_sp_mp": 0.25,
+      "dm_content_sp": 0.5,
+      "c_content_sp": 0,
+      "n_content_sp": 0.01
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0,
+      "dm_content_st": 0.5,
+      "c_content_st": 0.45,
+      "n_content_st": 0
+    },
+    "root": {
+      "ratio_root_shoot": null,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 600,
+      "supply_coeff_sp": 16
+    },
+    "default_yield": 25.0
+  },
+  "1102": {
+    "crop_id": 1102,
+    "name": "Cauliflower",
+    "name_de": "Blumenkohl",
+    "main_product": {
+      "dm_content_mp": 0.1,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.025
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 1.3,
+      "dm_content_st": 0,
+      "c_content_st": 0.45,
+      "n_content_st": 0.03
+    },
+    "root": {
+      "ratio_root_shoot": null,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 760,
+      "humus_supply_high": 1000,
+      "humus_supply_organic": 1500,
+      "supply_coeff_sp": 16
+    },
+    "default_yield": 25.0
+  },
+  "1103": {
+    "crop_id": 1103,
+    "name": "Broccoli",
+    "name_de": "Brokkoli",
+    "main_product": {
+      "dm_content_mp": 0.1,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.04
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 4.1,
+      "dm_content_st": 0.1,
+      "c_content_st": 0.45,
+      "n_content_st": 0.035
+    },
+    "root": {
+      "ratio_root_shoot": null,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 760,
+      "humus_supply_high": 1000,
+      "humus_supply_organic": 1240,
+      "supply_coeff_sp": 16
+    },
+    "default_yield": 10.0
+  },
+  "1104": {
+    "crop_id": 1104,
+    "name": "Fennel",
+    "name_de": "Fenchel",
+    "main_product": {
+      "dm_content_mp": 0.1,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.02
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.8,
+      "dm_content_st": 0,
+      "c_content_st": 0.45,
+      "n_content_st": 0.03
+    },
+    "root": {
+      "ratio_root_shoot": null,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 600,
+      "supply_coeff_sp": 16
+    },
+    "default_yield": 15.0
+  },
+  "1105": {
+    "crop_id": 1105,
+    "name": "Beetroot",
+    "name_de": "Rote Beete",
+    "main_product": {
+      "dm_content_mp": 0.18,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.015
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.67,
+      "dm_content_st": 0,
+      "c_content_st": 0.45,
+      "n_content_st": 0.01
+    },
+    "root": {
+      "ratio_root_shoot": 0.101010101010101,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 16
+    },
+    "default_yield": 40.0
+  },
+  "1106": {
+    "crop_id": 1106,
+    "name": "Celery",
+    "name_de": "Sellerie",
+    "main_product": {
+      "dm_content_mp": 0.15,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.016
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.5,
+      "dm_content_st": 0,
+      "c_content_st": 0.45,
+      "n_content_st": 0.02
+    },
+    "root": {
+      "ratio_root_shoot": null,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 760,
+      "humus_supply_high": 1000,
+      "humus_supply_organic": 1500,
+      "supply_coeff_sp": 16
+    },
+    "default_yield": 40.0
+  },
+  "1107": {
+    "crop_id": 1107,
+    "name": "Pumpkins",
+    "name_de": "Kürbisse",
+    "main_product": {
+      "dm_content_mp": 0.15,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.016
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 1,
+      "dm_content_st": 0,
+      "c_content_st": 0.45,
+      "n_content_st": 0.016
+    },
+    "root": {
+      "ratio_root_shoot": null,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 760,
+      "humus_supply_high": 1000,
+      "humus_supply_organic": 1500,
+      "supply_coeff_sp": 16
+    },
+    "default_yield": 20.0
+  },
+  "1108": {
+    "crop_id": 1108,
+    "name": "Lettuce",
+    "name_de": "Blattsalat",
+    "main_product": {
+      "dm_content_mp": 0.075,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.02
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.2,
+      "dm_content_st": 0,
+      "c_content_st": 0.45,
+      "n_content_st": 0.02
+    },
+    "root": {
+      "ratio_root_shoot": null,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 520,
+      "supply_coeff_sp": 16
+    },
+    "default_yield": 20.0
+  },
+  "1109": {
+    "crop_id": 1109,
+    "name": "Vegetables (not specified)",
+    "name_de": "Gemüse (ohne nähere Spezifikation, Parametrisierung als Mittelwert aus 1100 bis 1108)",
+    "main_product": {
+      "dm_content_mp": 0.13,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.02
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0.05,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.9,
+      "dm_content_st": 0.05,
+      "c_content_st": 0.45,
+      "n_content_st": 0.019
+    },
+    "root": {
+      "ratio_root_shoot": 0.101010101010101,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 533.3333333333334,
+      "humus_supply_high": 733.3333333333334,
+      "humus_supply_organic": 1100,
+      "supply_coeff_sp": 16
+    },
+    "default_yield": 30.0
+  },
+  "1110": {
+    "crop_id": 1110,
+    "name": "Caraway",
+    "name_de": "Kümmel",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.025
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 8,
+      "dm_content_st": 0,
+      "c_content_st": 0.45,
+      "n_content_st": 0.002
+    },
+    "root": {
+      "ratio_root_shoot": null,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 600,
+      "supply_coeff_sp": 16
+    },
+    "default_yield": 2.0
+  },
+  "1111": {
+    "crop_id": 1111,
+    "name": "Mustard",
+    "name_de": "Senf",
+    "main_product": {
+      "dm_content_mp": 0.86,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.025
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 8,
+      "dm_content_st": 0,
+      "c_content_st": 0.45,
+      "n_content_st": 0.002
+    },
+    "root": {
+      "ratio_root_shoot": null,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 600,
+      "supply_coeff_sp": 16
+    },
+    "default_yield": 2.0
+  },
+  "1112": {
+    "crop_id": 1112,
+    "name": "White cabbage",
+    "name_de": "Weißkohl",
+    "main_product": {
+      "dm_content_mp": 0.08,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.025
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.91,
+      "dm_content_st": 0.11,
+      "c_content_st": 0.45,
+      "n_content_st": 0.027
+    },
+    "root": {
+      "ratio_root_shoot": 0,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": null,
+      "humus_supply_high": null,
+      "humus_supply_organic": 1240,
+      "supply_coeff_sp": null
+    },
+    "default_yield": null
+  },
+  "1113": {
+    "crop_id": 1113,
+    "name": "Turnip",
+    "name_de": "Kohlrübe",
+    "main_product": {
+      "dm_content_mp": 0.11,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.032
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.35,
+      "dm_content_st": 0.07,
+      "c_content_st": 0.45,
+      "n_content_st": 0.04
+    },
+    "root": {
+      "ratio_root_shoot": null,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": null
+    },
+    "legume_fixation": {
+      "leg_share": null,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": null,
+      "humus_supply_high": null,
+      "humus_supply_organic": 1040,
+      "supply_coeff_sp": null
+    },
+    "default_yield": null
+  },
+  "1119": {
+    "crop_id": 1119,
+    "name": "Herbs (not specified)",
+    "name_de": "Gewürzpflanzen (ohne nähere Spezifikation, Parametrisierung als Mittelwert aus 1110 bis 1118)",
+    "main_product": {
+      "dm_content_mp": 0.15,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.03
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.25,
+      "dm_content_st": 0,
+      "c_content_st": 0.45,
+      "n_content_st": 0.025
+    },
+    "root": {
+      "ratio_root_shoot": null,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 600,
+      "supply_coeff_sp": 100
+    },
+    "default_yield": 2.0
+  },
+  "1120": {
+    "crop_id": 1120,
+    "name": "Strawberries",
+    "name_de": "Erdbeeren",
+    "main_product": {
+      "dm_content_mp": 0.05,
+      "c_content_mp": 0.45,
+      "n_content_mp": 0.025
+    },
+    "side_product": {
+      "ratio_sp_mp": 0,
+      "dm_content_sp": 0,
+      "c_content_sp": 0,
+      "n_content_sp": 0
+    },
+    "litter": {
+      "ratio_lt_mp": 0,
+      "dm_content_lt": 0,
+      "c_content_lt": 0,
+      "n_content_lt": 0
+    },
+    "stubble": {
+      "ratio_st_mp": 0.25,
+      "dm_content_st": 0,
+      "c_content_st": 0.45,
+      "n_content_st": 0.02
+    },
+    "root": {
+      "ratio_root_shoot": null,
+      "dm_content_rt": 1,
+      "c_content_rt": 0.4,
+      "n_content_rt": 0.01
+    },
+    "legume_fixation": {
+      "leg_share": 0,
+      "NDFA": 0
+    },
+    "n_dynamics": {
+      "NYRN": 0,
+      "NAV": 0.25
+    },
+    "vdlufa": {
+      "humus_supply_low": 280,
+      "humus_supply_high": 400,
+      "humus_supply_organic": 600,
+      "supply_coeff_sp": 16
+    },
+    "default_yield": null
+  }
+}
