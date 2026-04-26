@@ -1,4 +1,4 @@
-# Organic-Farm-Tool
+# Open-Farm-Tool
 Development of a sustainability assessment tool from scratch
 
 ```mermaid
