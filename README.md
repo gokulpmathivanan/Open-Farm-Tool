@@ -36,7 +36,7 @@ graph TD
 
 ```
 ```
-opencarbonfarm/
+openfarmtool/
 ├── core/                          # Calculation engine
 │   ├── farm.py                    # Central farm data model
 │   ├── balance.py                 # Aggregates results from all modules
