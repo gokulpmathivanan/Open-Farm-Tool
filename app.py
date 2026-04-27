@@ -2,6 +2,26 @@ import streamlit as st
 import json
 from core.soil_carbon.humod import calc_humus_balance
 
+# --- Password protection ---
+def check_password():
+    if "authenticated" not in st.session_state:
+        st.session_state.authenticated = False
+    
+    if not st.session_state.authenticated:
+        st.title("Open Farm Tool")
+        password = st.text_input("Enter password", type="password")
+        if st.button("Login"):
+            if password == st.secrets["password"]:
+                st.session_state.authenticated = True
+                st.rerun()
+            else:
+                st.error("Incorrect password")
+        return False
+    return True
+
+if not check_password():
+    st.stop()
+    
 # Load databases
 with open("data/humod/crop_parameters.json", "r", encoding="utf-8") as f:
     crops = json.load(f)
