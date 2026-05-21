@@ -169,7 +169,7 @@ def calc_som_loss(npb_result, crop, site_cn, n_deposition, nur, fert_n_available
         "som_loss": som_loss
     }
 
-def calc_som_supply(npb_result, crop, fert=None, fert_amount_fm_kg_ha=0, site_cn=10.5):
+def calc_som_supply(npb_result, crop, fert=None, fert_amount_fm_kg_ha=0, site_cn=10.5, extra_c=0, extra_n=0):
     """
     Calculate SOM supply (SOMSUP)
     
@@ -214,6 +214,10 @@ def calc_som_supply(npb_result, crop, fert=None, fert_amount_fm_kg_ha=0, site_cn
             # N retained in soil = total N × (1 - fraction taken by plants)
             nsup_ftlz = fert_amount_fm_kg_ha * dm * n_content * (1 - nfav)
 
+    # Add carry-forward C and N from previous year's residues
+    csup_ftlz = csup_ftlz + extra_c
+    nsup_ftlz = nsup_ftlz + extra_n
+
     # SOMSUP = MIN of N-limited and C-limited
     n_limited = (nsup_hr + nsup_ftlz) * site_cn
     c_limited = csup_hr + csup_ftlz
@@ -230,32 +234,72 @@ def calc_som_supply(npb_result, crop, fert=None, fert_amount_fm_kg_ha=0, site_cn
         "som_supply": som_supply
     }
 
-def calc_humus_balance(crop, yield_fm_kg_ha, site_cn=10.5, 
-                       n_deposition=20, precipitation_mm=650,
-                       winter_precip_share=0.5, pore_volume=0.4,
-                       fert=None, fert_amount_fm_kg_ha=0):
+def process_rotation(rotation_entries, crops, ferts, site_cn=10.5,
+                     n_deposition=20, precipitation_mm=650,
+                     winter_precip_share=0.5, pore_volume=0.4):
     """
-    Calculate the complete HU-MOD humus balance for a single crop.
+    Process a crop rotation, carrying forward straw and green manure
+    from one year to the next.
+    """
+    results = []
+    carry_forward_c = 0
+    carry_forward_n = 0
     
-    This is the main entry point — it chains all sub-calculations.
-    """
     nur = calc_ftlznue(precipitation_mm, winter_precip_share, pore_volume)
-    npb_result = calc_n_plant_biomass(crop, yield_fm_kg_ha)
     
-    fert_n = 0
-    if fert is not None and fert_amount_fm_kg_ha > 0:
-        fert_result = calc_fert_n_available(fert, fert_amount_fm_kg_ha, nur)
-        fert_n = fert_result["available_n"]
+    for i, entry in enumerate(rotation_entries):
+        crop_data = crops[entry["crop_id"]]
+        
+        npb_result = calc_n_plant_biomass(crop_data, entry["yield_kg"])
+        
+        # Fertiliser inputs
+        fert_data = None
+        fert_amt = 0
+        fert_n = 0
+        if entry["fert_id"] is not None and entry["fert_amount"] > 0:
+            fert_data = ferts[entry["fert_id"]]
+            fert_amt = entry["fert_amount"]
+            fert_result = calc_fert_n_available(fert_data, fert_amt, nur)
+            fert_n = fert_result["available_n"]
+        
+        # Use carry-forward from previous year
+        extra_c = carry_forward_c
+        extra_n = carry_forward_n
+        
+        # Calculate loss and supply
+        loss = calc_som_loss(npb_result, crop_data, site_cn, n_deposition, nur, fert_n)
+        supply = calc_som_supply(npb_result, crop_data, fert_data, fert_amt, site_cn, extra_c, extra_n)
+        balance = supply["som_supply"] - loss["som_loss"]
+        
+        # Determine what carries forward to NEXT year
+        carry_forward_c = 0
+        carry_forward_n = 0
+        
+        sp = crop_data["side_product"]
+        
+        if entry["sp_use"] == "Left on field":
+            carry_forward_c = npb_result["sp_dm"] * (sp["c_content_sp"] or 0)
+            carry_forward_n = npb_result["sp_dm"] * (sp["n_content_sp"] or 0)
+        
+        elif entry["sp_use"] == "Crop mulched (green manure)":
+            mp = crop_data["main_product"]
+            carry_forward_c = (npb_result["mp_dm"] * (mp["c_content_mp"] or 0)
+                             + npb_result["sp_dm"] * (sp["c_content_sp"] or 0))
+            carry_forward_n = (npb_result["mp_dm"] * (mp["n_content_mp"] or 0)
+                             + npb_result["sp_dm"] * (sp["n_content_sp"] or 0))
+        
+        results.append({
+            "year": entry["year"],
+            "crop_name": entry["crop_name"],
+            "fert_name": entry.get("fert_name", "—"),
+            "sp_use": entry["sp_use"],
+            "carry_forward_c": extra_c,
+            "carry_forward_n": extra_n,
+            "som_loss": loss,
+            "som_supply": supply,
+            "balance": balance,
+            "npb": npb_result,
+        })
     
-    loss = calc_som_loss(npb_result, crop, site_cn, n_deposition, nur, fert_n)
-    supply = calc_som_supply(npb_result, crop, fert, fert_amount_fm_kg_ha, site_cn)
-    
-    balance = supply["som_supply"] - loss["som_loss"]
-    
-    return {
-        "nur": nur,
-        "npb": npb_result,
-        "som_loss": loss,
-        "som_supply": supply,
-        "humus_balance_kg_soc_ha": balance,
-    }
+    return results
+

@@ -1,27 +1,7 @@
 import streamlit as st
 import json
-from core.soil_carbon.humod import calc_humus_balance
+from core.soil_carbon.humod import process_rotation
 
-# --- Password protection ---
-def check_password():
-    if "authenticated" not in st.session_state:
-        st.session_state.authenticated = False
-    
-    if not st.session_state.authenticated:
-        st.title("Open Farm Tool")
-        password = st.text_input("Enter password", type="password")
-        if st.button("Login"):
-            if password == st.secrets["password"]:
-                st.session_state.authenticated = True
-                st.rerun()
-            else:
-                st.error("Incorrect password")
-        return False
-    return True
-
-if not check_password():
-    st.stop()
-    
 # Load databases
 with open("data/humod/crop_parameters.json", "r", encoding="utf-8") as f:
     crops = json.load(f)
@@ -62,16 +42,22 @@ for i in range(int(n_crops)):
     st.markdown(f"**Year {i + 1}**")
     col1, col2 = st.columns(2)
     with col1:
-        crop_choice = st.selectbox(f"Crop", sorted_crop_names, key=f"crop_{i}")
+        crop_choice = st.selectbox("Crop", sorted_crop_names, key=f"crop_{i}")
     with col2:
-        yield_input = st.number_input(f"Yield (kg FM/ha)", value=6000, step=500, key=f"yield_{i}")
+        yield_input = st.number_input("Yield (kg FM/ha)", value=6000, step=500, key=f"yield_{i}")
     
     col3, col4 = st.columns(2)
     with col3:
-        fert_choice = st.selectbox(f"Fertiliser", sorted_fert_names, key=f"fert_{i}")
+        fert_choice = st.selectbox("Fertiliser", sorted_fert_names, key=f"fert_{i}")
     with col4:
-        fert_amount = st.number_input(f"Amount (kg FM/ha)", value=0, step=1000, key=f"fert_amt_{i}")
-    
+        fert_amount = st.number_input("Amount (kg FM/ha)", value=0, step=1000, key=f"fert_amt_{i}")
+        
+    sp_use = st.selectbox(
+        "Side product use",
+        ["Removed", "Left on field", "Crop mulched (green manure)"],
+        key=f"sp_use_{i}"
+    )
+
     rotation_entries.append({
         "year": i + 1,
         "crop_name": crop_choice,
@@ -80,39 +66,17 @@ for i in range(int(n_crops)):
         "fert_name": fert_choice,
         "fert_id": fert_names[fert_choice],
         "fert_amount": fert_amount,
+        "sp_use": sp_use,
     })
 
 # --- Calculate ---
 st.markdown("---")
 if st.button("Calculate humus balance"):
     
-    results = []
-    
-    for entry in rotation_entries:
-        crop_data = crops[entry["crop_id"]]
-        
-        fert_data = None
-        fert_amt = 0
-        if entry["fert_id"] is not None and entry["fert_amount"] > 0:
-            fert_data = ferts[entry["fert_id"]]
-            fert_amt = entry["fert_amount"]
-        
-        result = calc_humus_balance(
-            crop_data, entry["yield_kg"], site_cn, n_dep,
-            precip, winter_share, pore_vol,
-            fert_data, fert_amt
-        )
-        
-        results.append({
-            "year": entry["year"],
-            "crop_name": entry["crop_name"],
-            "fert_name": entry["fert_name"] if entry["fert_name"] != "None" else "—",
-            "fert_amount": entry["fert_amount"],
-            "som_loss": result["som_loss"]["som_loss"],
-            "som_supply": result["som_supply"]["som_supply"],
-            "balance": result["humus_balance_kg_soc_ha"],
-            "full_result": result,
-        })
+    results = process_rotation(
+        rotation_entries, crops, ferts,
+        site_cn, n_dep, precip, winter_share, pore_vol
+    )
     
     # --- Rotation summary ---
     mean_balance = sum(r["balance"] for r in results) / len(results)
@@ -142,8 +106,8 @@ if st.button("Calculate humus balance"):
         cols = st.columns([2, 2, 1.5, 1.5, 1.5])
         cols[0].write(f"Yr {r['year']}: {r['crop_name']}")
         cols[1].write(f"{r['fert_name']}")
-        cols[2].write(f"{r['som_loss']:.0f}")
-        cols[3].write(f"{r['som_supply']:.0f}")
+        cols[2].write(f"{r['som_loss']['som_loss']:.0f}")
+        cols[3].write(f"{r['som_supply']['som_supply']:.0f}")
         
         bal = r["balance"]
         if bal >= 0:
@@ -156,8 +120,8 @@ if st.button("Calculate humus balance"):
     total_cols = st.columns([2, 2, 1.5, 1.5, 1.5])
     total_cols[0].markdown("**Rotation mean**")
     total_cols[1].write("")
-    total_cols[2].write(f"**{sum(r['som_loss'] for r in results) / len(results):.0f}**")
-    total_cols[3].write(f"**{sum(r['som_supply'] for r in results) / len(results):.0f}**")
+    total_cols[2].write(f"**{sum(r['som_loss']['som_loss'] for r in results) / len(results):.0f}**")
+    total_cols[3].write(f"**{sum(r['som_supply']['som_supply'] for r in results) / len(results):.0f}**")
     if mean_balance >= 0:
         total_cols[4].markdown(f"**:green[+{mean_balance:.0f}]**")
     else:
@@ -171,21 +135,21 @@ if st.button("Calculate humus balance"):
         with st.expander(f"Year {r['year']}: {r['crop_name']} — Balance: {r['balance']:.0f} kg SOC/ha"):
             col_loss, col_supply = st.columns(2)
             
-            full = r["full_result"]
-            
             with col_loss:
-                st.metric("SOM Loss", f"{full['som_loss']['som_loss']:.0f} kg SOC/ha")
+                st.metric("SOM Loss", f"{r['som_loss']['som_loss']:.0f} kg SOC/ha")
                 st.caption("N sources offsetting SOM demand:")
-                st.write(f"- N deposition: {full['som_loss']['ndep']:.1f} kg N/ha")
-                st.write(f"- Fertiliser N: {full['som_loss']['nftlz']:.1f} kg N/ha")
-                st.write(f"- BNF (fixation): {full['som_loss']['nbnf']:.1f} kg N/ha")
+                st.write(f"- N deposition: {r['som_loss']['ndep']:.1f} kg N/ha")
+                st.write(f"- Fertiliser N: {r['som_loss']['nftlz']:.1f} kg N/ha")
+                st.write(f"- BNF (fixation): {r['som_loss']['nbnf']:.1f} kg N/ha")
             
             with col_supply:
-                st.metric("SOM Supply", f"{full['som_supply']['som_supply']:.0f} kg SOC/ha")
+                st.metric("SOM Supply", f"{r['som_supply']['som_supply']:.0f} kg SOC/ha")
                 st.caption("C and N inputs to soil:")
-                st.write(f"- Residue C: {full['som_supply']['csup_hr']:.0f} kg C/ha")
-                st.write(f"- Fertiliser C: {full['som_supply']['csup_ftlz']:.0f} kg C/ha")
-                st.write(f"- Residue N: {full['som_supply']['nsup_hr']:.1f} kg N/ha")
-                st.write(f"- Fertiliser N: {full['som_supply']['nsup_ftlz']:.1f} kg N/ha")
-                limiting = "N-limited" if full['som_supply']['n_limited'] < full['som_supply']['c_limited'] else "C-limited"
+                st.write(f"- Residue C: {r['som_supply']['csup_hr']:.0f} kg C/ha")
+                st.write(f"- Fertiliser C: {r['som_supply']['csup_ftlz']:.0f} kg C/ha")
+                st.write(f"- Residue N: {r['som_supply']['nsup_hr']:.1f} kg N/ha")
+                st.write(f"- Fertiliser N: {r['som_supply']['nsup_ftlz']:.1f} kg N/ha")
+                limiting = "N-limited" if r['som_supply']['n_limited'] < r['som_supply']['c_limited'] else "C-limited"
                 st.write(f"- Limiting factor: **{limiting}**")
+                if r["carry_forward_c"] > 0:
+                    st.write(f"- Received from previous year: {r['carry_forward_c']:.0f} kg C")
