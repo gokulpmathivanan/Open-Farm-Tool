@@ -1,6 +1,8 @@
 # Open-Farm-Tool
 Development of a sustainability assessment tool from scratch
 
+Current version: https://farm.goku-lab.com/
+
 ```mermaid
 graph TD
     A[<b>Farm Data</b>] --> C[<b>Soil Carbon</b><br>Pick one or compare</br>]
